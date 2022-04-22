@@ -105,7 +105,7 @@ namespace LifeSimulation
                     if (hasLife)
                     {
                         //генирируем игровое поле(рисуем квадраты)
-                        graphics.FillRectangle(Brushes.Crimson, x * resolution, y * resolution, resolution, resolution);
+                        graphics.FillRectangle(Brushes.Crimson, x * resolution, y * resolution, resolution -1, resolution -1);
 
                     }
 
